@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+   scroll-behavior: smooth;
+}
+
+
+.navigation-bar {
+  position: sticky;
+  
+}

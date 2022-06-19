@@ -1,0 +1,139 @@
+.map-header {
+  /* border: 10px solid;
+  border-color: red; */
+  display: flex;
+  padding: 1em;
+  width: 100%;
+  top: 0;
+  /* left: 0; */
+}
+
+/*
+* Main Page Styles
+*/
+
+.main-box {
+  width: 100%;
+  overflow: visible;
+}
+
+.intro-grid {
+  transform: skewY(-50);
+  position: relative;
+  top: 5em;
+  font-weight: bold;
+  color: white;
+  left: 0;
+  width: 100%;
+}
+
+.image-grid {
+  width: 40%;
+  display: flex;
+}
+
+.image-icon {
+  height: 300px;
+  overflow: visible;
+  z-index: 99;
+  pointer-events: none
+}
+
+.intro-box {
+  width: 60%;
+}
+
+/*
+* Drawing Page Styles
+*/
+
+.chat-box-div {
+  /* border: solid 2px red; */
+  bottom: 0;
+  width: 100%;
+}
+
+.chat-box-display {
+  background-color: rgb(231, 231, 231);
+  position: relative;
+  margin: 1em;
+  height: 100%;
+}
+
+#chat-input {
+  width: 80%;
+  background-color: rgb(231, 231, 231);
+}
+
+/*
+*
+* About Me Page
+*
+*/
+
+.timeline-box {
+  overflow: visible;
+  align-items: center;
+}
+
+.skills-animation:only-child {
+  overflow: visible;
+  background-color: blue;
+}
+
+/* 
+---------------------------------------------------------------------------------------
+*/
+
+.template-one-grid {
+  display: flex;
+  padding: 1em;
+}
+
+.template-two-grid {
+  display: flex;
+  padding: 1em;
+}
+
+.template-three-grid {
+  display: flex;
+  padding: 1em;
+}
+
+/* 
+---------------------------------------------------------------------------------------
+*/
+
+.blog-container {
+  margin: 5rem;
+}
+
+/* contact
+---------------------------------------------------------------------------------------
+*/
+
+.contact-box {
+  /* border: solid 10px red; */
+  overflow: visible;
+}
+
+.icons-stack {
+  /* border: solid 10px red; */
+}
+
+.contact-form {
+  /* border: solid 10px red; */
+}
+
+.mailing-animation {
+  overflow: visible;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100px;
+  pointer-events: none;
+  z-index: 99;
+  bottom: 1px;
+}
